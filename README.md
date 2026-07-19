@@ -50,13 +50,6 @@ azimuth time-stepping loop and run-level progress reporting.
   induced velocity so it is chordwise grid-convergent; the diagonal-refined
   thrust extrapolates to ≈ 1.976 N (2nd order, GCI 0.14%).
 
-## Tests
-
-```bash
-pytest
-```
-
-`tests/test_dji_validation.py` guards the DJI hover thrust against regressions.
 
 ## Data
 
