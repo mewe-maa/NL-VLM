@@ -1,0 +1,7 @@
+r/R,Contour file,Aero file
+0.0,NACA0012.csv,polar_rR00000.csv
+0.2,NACA0012.csv,polar_rR02000.csv
+0.3,NACA0012.csv,polar_rR03000.csv
+0.5,NACA0012.csv,polar_rR05000.csv
+0.75,NACA0012.csv,polar_rR07500.csv
+1.0,NACA0012.csv,polar_rR10000.csv

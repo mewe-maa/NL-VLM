@@ -1,0 +1,8 @@
+r/R,Contour file,Aero file
+0.0,BOEING_VERTOL_VR_12.csv,polar_rR00000.csv
+0.12,BOEING_VERTOL_VR_12.csv,polar_rR01200.csv
+0.25,BOEING_VERTOL_VR_12.csv,polar_rR02500.csv
+0.5,BOEING_VERTOL_VR_12.csv,polar_rR05000.csv
+0.85,BOEING_VERTOL_VR_12.csv,polar_rR08500.csv
+0.95,SIKORSKY_SSC_A09.csv,polar_rR09500.csv
+1.0,SIKORSKY_SSC_A09.csv,polar_rR10000.csv

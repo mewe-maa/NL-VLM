@@ -1,0 +1,6 @@
+r/R,Contour file,Aero file
+0.0,clarky.csv,polar_rR00000.csv
+0.368421052631579,naca4412.csv,polar_rR03684.csv
+0.6842105263157894,naca4412.csv,polar_rR06842.csv
+0.8947368421052632,naca4412.csv,polar_rR08947.csv
+1.0,naca4412.csv,polar_rR10000.csv
