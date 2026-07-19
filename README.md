@@ -24,13 +24,6 @@ pip install -e .          # runtime
 pip install -e ".[dev]"   # + pytest for the tests
 ```
 
-## Usage
-
-Edit the config block at the top of `main.py`, then:
-
-```bash
-python main.py
-```
 
 Or from Python — the validated pipeline is `PropGeom → PropMesh → Vehicle → VLM`:
 
