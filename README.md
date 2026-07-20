@@ -1,8 +1,12 @@
 # nl-vlm
 
-Nonlinear vortex-lattice method (NL-VLM) for rotor / propeller aerodynamics.
+Nonlinear vortex-lattice method (NL-VLM) for rotor / propeller and wing aerodynamics.
 
-Validated on the DJI 9443 rotor in hover: **thrust ≈ 1.999 N at 5400 rpm**
+The current solver is quasi-steady. Ongoing development focuses on a fully unsteady, GPU-accelerated formulation using a vortex-particle method (VPM), followed by integration with full six-degree-of-freedom vehicle dynamics.
+
+Contributions, feedback, bug reports, and suggestions are welcome.
+
+Validated on the DJI 9443 rotor in hover: **thrust ≈ 1.98 N at 5400 rpm**
 (≈5% below the experimental value). See `validation/dji9443_validation.ipynb`.
 
 ## Package layout
@@ -37,7 +41,7 @@ azimuth time-stepping loop and run-level progress reporting.
 
 ## Validation & mesh convergence
 
-- `validation/` — DJI 9443, APC 10x7, Caradonna–Tung validation notebooks.
+- `validation/` — DJI 9443, Caradonna-Tung validation notebooks.
 - `studies/mesh_convergence.py` — grid-convergence study (span / chord / diagonal
   refinement + Richardson extrapolation). The KJ force uses a strip-averaged
   induced velocity so it is chordwise grid-convergent; the diagonal-refined
