@@ -42,10 +42,6 @@ azimuth time-stepping loop and run-level progress reporting.
 ## Validation & mesh convergence
 
 - `validation/` — DJI 9443, Caradonna-Tung validation notebooks.
-- `studies/mesh_convergence.py` — grid-convergence study (span / chord / diagonal
-  refinement + Richardson extrapolation). The KJ force uses a strip-averaged
-  induced velocity so it is chordwise grid-convergent; the diagonal-refined
-  thrust extrapolates to ≈ 1.976 N (2nd order, GCI 0.14%).
 
 
 ## Data
